@@ -1,1 +1,64 @@
-El siguinete codigo es para la interfaz
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/tur">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/perfil"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_nombr"
+        android:hint="@string/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="5dp"
+        android:inputType="text"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_corre"
+        android:hint="@string/correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/number"
+        android:hint="@string/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="phone"
+        />
+
+
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+
+        />
+
+</LinearLayout>
