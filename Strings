@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="boton">Enviar</string>
+    <string name="nombre">Escriba su nombre</string>
+    <string name="correo">Escriba su correo eletronico</string>
+    <string name="telefono">Escriba su numero telefonico</string>
+</resources>
